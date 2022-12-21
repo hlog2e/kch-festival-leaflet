@@ -13,6 +13,7 @@ export default function Home() {
         <div className="w-44 h-44 bg-blue-200 rounded-[50%] fixed top-[500px] -right-32 z-50" />
         <Section1 />
         <Section2 />
+        <Section3 />
       </div>
     </div>
   );
@@ -115,6 +116,287 @@ function Section2() {
               <p>12:20 ~ 1:20</p>
               <p className={"ml-2 font-bold"}>개회식</p>
             </div>
+          </div>
+        </Fade>
+      </div>
+    </div>
+  );
+}
+
+function Section3() {
+  const data1 = [
+    {
+      name: "PIG",
+      topic: "VR, 펌프, 철권, 펠티어 냉장고",
+      place: "물리실",
+      person: "∞",
+    },
+    {
+      name: "MBC 1팀",
+      topic: "유기농 립밤 만들기",
+      place: "화학실",
+      person: "15",
+    },
+    {
+      name: "MBC 2팀",
+      topic: "나만의 향수 만들기",
+      place: "1-2",
+      person: "15",
+    },
+    {
+      name: "QS",
+      topic: "비밀번호 해독",
+      place: "생명과학실",
+      person: "15",
+    },
+    {
+      name: "카본",
+      topic: "입욕제 만들기",
+      place: "지구과학실",
+      person: "15",
+    },
+    {
+      name: "델타",
+      topic: "나만의 워터키링 만들기",
+      place: "1-4",
+      person: "15",
+    },
+    {
+      name: "델타",
+      topic: "천연 졸음방지제 만들기",
+      place: "1-5",
+      person: "15",
+    },
+    {
+      name: "지피에스",
+      topic: "셀프사진관",
+      place: "1-3",
+      person: "25",
+    },
+    {
+      name: "무궁화",
+      topic: "방탈출체험",
+      place: "2-5",
+      person: "팀당 4명",
+    },
+    {
+      name: "국제연합",
+      topic: "도전 40분 줄줄이 달려요!",
+      place: "어학실",
+      person: "25",
+    },
+    {
+      name: "심리연구소",
+      topic: "타로체험",
+      place: "2-7",
+      person: "25",
+    },
+    {
+      name: "창작미술반",
+      topic: "핸드폰 비즈 스트랩 만들기",
+      place: "미술실",
+      person: "25",
+    },
+  ];
+
+  const data2 = [
+    {
+      name: "진로나침반",
+      topic: "소원달기, 익명편지 배달, 포토존",
+      place: "진로활동실",
+      person: "25",
+    },
+    {
+      name: "리미트",
+      topic: "타임 리미트",
+      place: "1-1",
+      person: "25",
+    },
+    {
+      name: "온에어",
+      topic: "도전! K-예능 게임 릴레이",
+      place: "1-6",
+      person: "25",
+    },
+    {
+      name: "모의유엔",
+      topic: "보물찾기식 유엔 퀴즈 맞추기",
+      place: "1-7",
+      person: "25",
+    },
+    {
+      name: "건축동아리",
+      topic: "과자집 만들기",
+      place: "2-2",
+      person: "25",
+    },
+    {
+      name: "엘사",
+      topic: "멸종위기동물 키링 만들기",
+      place: "2-6",
+      person: "25",
+    },
+    {
+      name: "그린랜턴 1",
+      topic: "친환경퀴즈 맞히기",
+      place: "2-9",
+      person: "25",
+    },
+    {
+      name: "그린랜턴 2",
+      topic: "비건 떡볶이 시식(별도비용-추후 기부)",
+      place: "2-8",
+      person: "25",
+    },
+    {
+      name: "유클리드",
+      topic: "스피드 문제풀이 게임",
+      place: "수학교과실",
+      person: "25",
+    },
+    {
+      name: "금빛나래",
+      topic: "모의주식 체험",
+      place: "사회교과실",
+      person: "25",
+    },
+  ];
+  return (
+    <div className="">
+      <div className="p-12">
+        <Fade left>
+          <p className={"font-pura text-2xl font-semibold"}>동아리 체험부스</p>
+        </Fade>
+
+        <Fade left>
+          <p className="mt-6 text-xl font-pura">1부 (09:10 ~ 10:10)</p>
+        </Fade>
+        <Fade left>
+          <div className="mt-2">
+            <p className="text-md font-pura">1학년</p>
+            <table className="w-full mt-2 text-center border border-slate-700 ">
+              <thead>
+                <tr className=" h-10 border border-black text-sm font-bold">
+                  <th className="w-[20%]  border border-black">동아리명</th>
+                  <th className="w-[40%] border border-black">주제</th>
+                  <th className="w-[20%] border border-black">장소</th>
+                  <th className="w-[20%] border border-black">인원</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data1.map((_item) => {
+                  return (
+                    <tr className="text-xs font-md h-9">
+                      <td className="border border-black">{_item.name}</td>
+                      <td className="border border-black px-1">
+                        {_item.topic}
+                      </td>
+                      <td className="border border-black ">{_item.place}</td>
+                      <td className="border border-black px-1">
+                        {_item.person}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </Fade>
+        <Fade left>
+          <div className="mt-2">
+            <p className="text-md font-pura">2학년</p>
+            <table className="w-full mt-2 text-center border border-slate-700 ">
+              <thead>
+                <tr className=" h-10 border border-black text-sm font-bold">
+                  <th className="w-[20%]  border border-black">동아리명</th>
+                  <th className="w-[40%] border border-black">주제</th>
+                  <th className="w-[20%] border border-black">장소</th>
+                  <th className="w-[20%] border border-black">인원</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data2.map((_item) => {
+                  return (
+                    <tr className="text-xs font-md h-9">
+                      <td className="border border-black">{_item.name}</td>
+                      <td className="border border-black px-1">
+                        {_item.topic}
+                      </td>
+                      <td className="border border-black ">{_item.place}</td>
+                      <td className="border border-black px-1">
+                        {_item.person}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </Fade>
+
+        <Fade left>
+          <p className="mt-16 text-xl font-pura">2부 (10:20 ~ 11:20)</p>
+        </Fade>
+        <Fade left>
+          <div className="mt-2">
+            <p className="text-md font-pura">1학년</p>
+            <table className="w-full mt-2 text-center border border-slate-700 ">
+              <thead>
+                <tr className=" h-10 border border-black text-sm font-bold">
+                  <th className="w-[20%]  border border-black">동아리명</th>
+                  <th className="w-[40%] border border-black">주제</th>
+                  <th className="w-[20%] border border-black">장소</th>
+                  <th className="w-[20%] border border-black">인원</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data2.map((_item) => {
+                  return (
+                    <tr className="text-xs font-md h-9">
+                      <td className="border border-black">{_item.name}</td>
+                      <td className="border border-black px-1">
+                        {_item.topic}
+                      </td>
+                      <td className="border border-black ">{_item.place}</td>
+                      <td className="border border-black px-1">
+                        {_item.person}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </Fade>
+        <Fade left>
+          <div className="mt-2">
+            <p className="text-md font-pura">2학년</p>
+            <table className="w-full mt-2 text-center border border-slate-700 ">
+              <thead>
+                <tr className=" h-10 border border-black text-sm font-bold">
+                  <th className="w-[20%]  border border-black">동아리명</th>
+                  <th className="w-[40%] border border-black">주제</th>
+                  <th className="w-[20%] border border-black">장소</th>
+                  <th className="w-[20%] border border-black">인원</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data1.map((_item) => {
+                  return (
+                    <tr className="text-xs font-md h-9">
+                      <td className="border border-black">{_item.name}</td>
+                      <td className="border border-black px-1">
+                        {_item.topic}
+                      </td>
+                      <td className="border border-black ">{_item.place}</td>
+                      <td className="border border-black px-1">
+                        {_item.person}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         </Fade>
       </div>
