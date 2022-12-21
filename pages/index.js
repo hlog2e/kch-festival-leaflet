@@ -15,6 +15,7 @@ export default function Home() {
         <Section2 />
         <Section3 />
         <Section4 />
+        <Footer />
       </div>
     </div>
   );
@@ -578,6 +579,27 @@ function Section4() {
             </table>
           </div>
         </Fade>
+      </div>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <div className="w-full px-10 pb-24 text-slate-400">
+      <div className="flex justify-end">
+        <p className="text-xs ">Developed by </p>
+        <a
+          href="https://github.com/hlog2e"
+          className="font-bold ml-1 text-xs underline"
+        >
+          HongRok Kim
+        </a>
+      </div>
+      <div className="w-full border-t border-slate-300 mt-1">
+        <p className="text-xs mt-2">
+          Copyright Ⓒ 2022 KEUMCHEON High School All Rights Reserved.
+        </p>
       </div>
     </div>
   );
