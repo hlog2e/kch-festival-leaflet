@@ -78,7 +78,7 @@ function Section2() {
         {/*여기서 부터 1부 일정*/}
         <Fade left>
           <p className="mt-6 text-xl font-pura">1부</p>
-          <div className={"flex  font-medium text-lg flex-col"}>
+          <div className={"flex  font-medium text-lg flex-col font-pretendard"}>
             <div className={"flex items-center py-1"}>
               <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
               <p>12:20 ~ 1:20</p>
@@ -99,7 +99,7 @@ function Section2() {
         {/*여기서부터 2부 일정*/}
         <Fade left>
           <p className="mt-6 text-xl font-pura">2부</p>
-          <div className={"flex  font-medium text-lg flex-col"}>
+          <div className={"flex  font-medium text-lg flex-col font-pretendard"}>
             <div className={"flex items-center py-1"}>
               <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
               <p>12:20 ~ 1:20</p>
