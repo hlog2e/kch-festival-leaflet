@@ -407,6 +407,35 @@ function Section3() {
             </table>
           </div>
         </Fade>
+
+        <Fade left>
+          <p className="mt-16 text-xl font-pura text-pink-300">사전신청 부스</p>
+        </Fade>
+        <Fade left>
+          <div className="mt-2">
+            <p className="text-md font-pura">2학년</p>
+            <table className="w-full mt-2 text-center border ">
+              <thead>
+                <tr className=" h-10 border border-black text-sm font-bold">
+                  <th className="w-[20%]  border border-pink-200">동아리명</th>
+                  <th className="w-[40%] border border-pink-200">주제</th>
+                  <th className="w-[20%] border border-pink-200">장소</th>
+                  <th className="w-[20%] border border-pink-200">인원</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="text-xs font-md h-9">
+                  <td className="border border-pink-200">쿠킹클래스</td>
+                  <td className="border border-pink-200 px-1">
+                    미니케이크 만들기
+                  </td>
+                  <td className="border border-pink-200 ">금빛마루</td>
+                  <td className="border border-pink-200 px-1">사전신청</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </Fade>
       </div>
     </div>
   );
