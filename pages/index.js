@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.max_box}>
         <div className="w-44 h-44 bg-amber-200 rounded-[50%] fixed -top-20 -right-20 z-50" />
         <div className="w-44 h-44 bg-pink-200 rounded-[50%] fixed -bottom-28 -left-20 z-50" />
-        <div className="w-44 h-44 bg-blue-200 rounded-[50%] fixed top-[500px] -right-32 z-50" />
+        <div className="w-44 h-44 bg-blue-200 rounded-[50%] fixed top-[500px] -right-36 z-50" />
         <Section1 />
         <Section2 />
         <Section3 />
