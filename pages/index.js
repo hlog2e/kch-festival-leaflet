@@ -14,6 +14,7 @@ export default function Home() {
         <Section1 />
         <Section2 />
         <Section3 />
+        <Section4 />
       </div>
     </div>
   );
@@ -70,51 +71,46 @@ function Section1() {
 
 function Section2() {
   return (
-    <div className={"h-screen"}>
-      <div className={"p-12"}>
+    <div className={"pb-28"}>
+      <div className={"p-8"}>
         <Fade left>
           <p className={"font-pura text-2xl font-semibold"}>일정</p>
         </Fade>
 
         {/*여기서 부터 1부 일정*/}
         <Fade left>
-          <p className="mt-6 text-xl font-pura">1부</p>
+          <p className="mt-6 text-xl font-pura">동아리 체험활동</p>
           <div className={"flex  font-medium text-lg flex-col font-pretendard"}>
             <div className={"flex items-center py-1"}>
               <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
-              <p>12:20 ~ 1:20</p>
-              <p className={"ml-2 font-bold"}>개회식</p>
+              <p>09:10 ~ 10:10</p>
+              <p className={"ml-2 font-bold"}>1부 체험</p>
             </div>
             <div className={"flex items-center py-1"}>
               <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
-              <p>12:20 ~ 1:20</p>
-              <p className={"ml-2 font-bold"}>개회식</p>
-            </div>
-            <div className={"flex items-center py-1"}>
-              <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
-              <p>12:20 ~ 1:20</p>
-              <p className={"ml-2 font-bold"}>개회식</p>
+              <p>10:20 ~ 11:20</p>
+              <p className={"ml-2 font-bold"}>2부 체험</p>
             </div>
           </div>
         </Fade>
         {/*여기서부터 2부 일정*/}
         <Fade left>
-          <p className="mt-6 text-xl font-pura">2부</p>
+          <p className="mt-6 text-xl font-pura">쉬는시간</p>
           <div className={"flex  font-medium text-lg flex-col font-pretendard"}>
             <div className={"flex items-center py-1"}>
               <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
-              <p>12:20 ~ 1:20</p>
-              <p className={"ml-2 font-bold"}>개회식</p>
+              <p>11:20 ~ 13:30</p>
+              <p className={"ml-2 font-bold"}>급식 및 휴식</p>
             </div>
+          </div>
+        </Fade>
+        <Fade left>
+          <p className="mt-6 text-xl font-pura">공연</p>
+          <div className={"flex  font-medium text-lg flex-col font-pretendard"}>
             <div className={"flex items-center py-1"}>
               <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
-              <p>12:20 ~ 1:20</p>
-              <p className={"ml-2 font-bold"}>개회식</p>
-            </div>
-            <div className={"flex items-center py-1"}>
-              <div className="bg-blue-300 h-4 w-4 mx-2 border-2 rounded-3xl" />
-              <p>12:20 ~ 1:20</p>
-              <p className={"ml-2 font-bold"}>개회식</p>
+              <p>13:30 ~ 16:00</p>
+              <p className={"ml-2 font-bold"}>학생들의 무대</p>
             </div>
           </div>
         </Fade>
@@ -263,9 +259,20 @@ function Section3() {
   ];
   return (
     <div className="">
-      <div className="p-12">
+      <div className="p-8">
         <Fade left>
-          <p className={"font-pura text-2xl font-semibold"}>동아리 체험부스</p>
+          <div className="flex justify-between items-center">
+            <p className={"font-pura text-2xl font-semibold"}>
+              동아리 체험부스
+            </p>
+            <a
+              className="bg-amber-400 rounded-lg p-2 text-xs text-white font-bold"
+              href="/school_map.svg"
+              target="_blank"
+            >
+              금천고 안내도
+            </a>
+          </div>
         </Fade>
 
         <Fade left>
@@ -409,7 +416,7 @@ function Section3() {
         </Fade>
 
         <Fade left>
-          <p className="mt-16 text-xl font-pura text-pink-300">사전신청 부스</p>
+          <p className="mt-8 text-xl font-pura text-pink-300">사전신청 부스</p>
         </Fade>
         <Fade left>
           <div className="mt-2">
@@ -431,6 +438,142 @@ function Section3() {
                   <td className="border border-pink-200 ">금빛마루</td>
                   <td className="border border-pink-200 px-1">사전신청</td>
                 </tr>
+              </tbody>
+            </table>
+          </div>
+        </Fade>
+      </div>
+    </div>
+  );
+}
+
+function Section4() {
+  const data = [
+    {
+      type: "밴드",
+      people: "쌤밴드",
+      song: "비와 당신 외 1곡",
+    },
+    {
+      type: "밴드",
+      people: "하게타 동아리",
+      song: "나는 나비 외 1곡",
+    },
+    {
+      type: "찬조",
+      people: "본교 졸업생 알리온",
+      song: "il mio cuore va (타이타닉 ost)",
+    },
+    {
+      type: "댄스",
+      people: "박세민 외 3명",
+      song: "Kill this love 외 1곡",
+    },
+    {
+      type: "중창",
+      people: "김원호 외 8명",
+      song: "함께 걷는 길 외 1곡",
+    },
+    {
+      type: "랩",
+      people: "???",
+      song: "???",
+    },
+    {
+      type: "노래",
+      people: "주수빈 외 2명",
+      song: "우연히, 봄",
+    },
+    {
+      oneRow: true,
+      title: "e-스포츠",
+    },
+    {
+      type: "피아노",
+      people: "신은혁",
+      song: "L. v. Beethoven – Piano Sonata No.14 “Moonlight”",
+    },
+    {
+      type: "피아노",
+      people: "오주혜 외 1명",
+      song: 'L. v. Beethoven : Piano Sonata No.23\n"Appassionata ',
+    },
+    {
+      type: "노래",
+      people: "홍다율",
+      song: "그대라는 시",
+    },
+    {
+      type: "댄스",
+      people: "박장균 외 11명",
+      song: "RightNow 외 6곡",
+    },
+    {
+      type: "노래",
+      people: "윤태하",
+      song: "안녕",
+    },
+    {
+      type: "댄스",
+      people: "신희원 외 7명",
+      song: "bloodline 외 3곡",
+    },
+    {
+      oneRow: true,
+      title: "히든 티쳐!(숨겨진 선생님을 찾아라) & 스폐셜 무대",
+    },
+    {
+      type: "댄스",
+      people: "학생회 무대",
+      song: "",
+    },
+  ];
+  return (
+    <div className="h-screen mt-24 mb-16">
+      <div className="p-8">
+        <Fade left>
+          <p className={"font-pura text-2xl font-semibold"}>공연순서</p>
+        </Fade>
+
+        <Fade left>
+          <div className="mt-4">
+            <table className="w-full mt-2 text-center border ">
+              <thead>
+                <tr className=" h-10 border border-black text-sm font-bold">
+                  <th className="w-[10%] border border-orange-200">구분</th>
+                  <th className="w-[25%] border border-orange-200">출연진</th>
+                  <th className="w-[40%] border border-orange-200">노래</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.map((_item) => {
+                  if (!_item.oneRow) {
+                    return (
+                      <tr className="text-xs font-md h-9">
+                        <td className="border border-orange-200 px-1">
+                          {_item.type}
+                        </td>
+                        <td className="border border-orange-200 ">
+                          {_item.people}
+                        </td>
+                        <td className="border border-orange-200 px-1">
+                          {_item.song}
+                        </td>
+                      </tr>
+                    );
+                  } else {
+                    return (
+                      <tr className="text-xs font-bold h-9">
+                        <td
+                          colSpan="3"
+                          className="border-x border-orange-200 px-1"
+                        >
+                          {_item.title}
+                        </td>
+                      </tr>
+                    );
+                  }
+                })}
               </tbody>
             </table>
           </div>
