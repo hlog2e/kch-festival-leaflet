@@ -269,30 +269,34 @@ function Section3() {
         </Fade>
 
         <Fade left>
-          <p className="mt-6 text-xl font-pura">1부 (09:10 ~ 10:10)</p>
+          <p className="mt-8 text-xl font-pura text-amber-300">
+            1부 (09:10 ~ 10:10)
+          </p>
         </Fade>
         <Fade left>
-          <div className="mt-2">
-            <p className="text-md font-pura">1학년</p>
-            <table className="w-full mt-2 text-center border border-slate-700 ">
+          <div className="mt-2 ">
+            <p className="text-md font-pura ">1학년</p>
+            <table className="w-full mt-2 text-center border border-amber-200 ">
               <thead>
-                <tr className=" h-10 border border-black text-sm font-bold">
-                  <th className="w-[20%]  border border-black">동아리명</th>
-                  <th className="w-[40%] border border-black">주제</th>
-                  <th className="w-[20%] border border-black">장소</th>
-                  <th className="w-[20%] border border-black">인원</th>
+                <tr className=" h-10 border border-amber-300 text-sm font-bold">
+                  <th className="w-[20%]  border border-amber-200">동아리명</th>
+                  <th className="w-[40%] border border-amber-200">주제</th>
+                  <th className="w-[20%] border border-amber-200">장소</th>
+                  <th className="w-[20%] border border-amber-200">인원</th>
                 </tr>
               </thead>
               <tbody>
                 {data1.map((_item) => {
                   return (
                     <tr className="text-xs font-md h-9">
-                      <td className="border border-black">{_item.name}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-amber-200">{_item.name}</td>
+                      <td className="border border-amber-200 px-1">
                         {_item.topic}
                       </td>
-                      <td className="border border-black ">{_item.place}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-amber-200 ">
+                        {_item.place}
+                      </td>
+                      <td className="border border-amber-200 px-1">
                         {_item.person}
                       </td>
                     </tr>
@@ -304,26 +308,28 @@ function Section3() {
         </Fade>
         <Fade left>
           <div className="mt-2">
-            <p className="text-md font-pura">2학년</p>
-            <table className="w-full mt-2 text-center border border-slate-700 ">
+            <p className="text-md font-pura ">2학년</p>
+            <table className="w-full mt-2 text-center border border-amber-200 ">
               <thead>
-                <tr className=" h-10 border border-black text-sm font-bold">
-                  <th className="w-[20%]  border border-black">동아리명</th>
-                  <th className="w-[40%] border border-black">주제</th>
-                  <th className="w-[20%] border border-black">장소</th>
-                  <th className="w-[20%] border border-black">인원</th>
+                <tr className=" h-10 border border-amber-200 text-sm font-bold">
+                  <th className="w-[20%]  border border-amber-200">동아리명</th>
+                  <th className="w-[40%] border border-amber-200">주제</th>
+                  <th className="w-[20%] border border-amber-200">장소</th>
+                  <th className="w-[20%] border border-amber-200">인원</th>
                 </tr>
               </thead>
               <tbody>
                 {data2.map((_item) => {
                   return (
                     <tr className="text-xs font-md h-9">
-                      <td className="border border-black">{_item.name}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-amber-200">{_item.name}</td>
+                      <td className="border border-amber-200 px-1">
                         {_item.topic}
                       </td>
-                      <td className="border border-black ">{_item.place}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-amber-200 ">
+                        {_item.place}
+                      </td>
+                      <td className="border border-amber-200 px-1">
                         {_item.person}
                       </td>
                     </tr>
@@ -335,30 +341,32 @@ function Section3() {
         </Fade>
 
         <Fade left>
-          <p className="mt-16 text-xl font-pura">2부 (10:20 ~ 11:20)</p>
+          <p className="mt-16 text-xl font-pura text-blue-300">
+            2부 (10:20 ~ 11:20)
+          </p>
         </Fade>
         <Fade left>
           <div className="mt-2">
             <p className="text-md font-pura">1학년</p>
-            <table className="w-full mt-2 text-center border border-slate-700 ">
+            <table className="w-full mt-2 text-center border  ">
               <thead>
                 <tr className=" h-10 border border-black text-sm font-bold">
-                  <th className="w-[20%]  border border-black">동아리명</th>
-                  <th className="w-[40%] border border-black">주제</th>
-                  <th className="w-[20%] border border-black">장소</th>
-                  <th className="w-[20%] border border-black">인원</th>
+                  <th className="w-[20%]  border border-blue-200">동아리명</th>
+                  <th className="w-[40%] border border-blue-200">주제</th>
+                  <th className="w-[20%] border border-blue-200">장소</th>
+                  <th className="w-[20%] border border-blue-200">인원</th>
                 </tr>
               </thead>
               <tbody>
                 {data2.map((_item) => {
                   return (
                     <tr className="text-xs font-md h-9">
-                      <td className="border border-black">{_item.name}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-blue-200">{_item.name}</td>
+                      <td className="border border-blue-200 px-1">
                         {_item.topic}
                       </td>
-                      <td className="border border-black ">{_item.place}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-blue-200 ">{_item.place}</td>
+                      <td className="border border-blue-200 px-1">
                         {_item.person}
                       </td>
                     </tr>
@@ -371,25 +379,25 @@ function Section3() {
         <Fade left>
           <div className="mt-2">
             <p className="text-md font-pura">2학년</p>
-            <table className="w-full mt-2 text-center border border-slate-700 ">
+            <table className="w-full mt-2 text-center border ">
               <thead>
                 <tr className=" h-10 border border-black text-sm font-bold">
-                  <th className="w-[20%]  border border-black">동아리명</th>
-                  <th className="w-[40%] border border-black">주제</th>
-                  <th className="w-[20%] border border-black">장소</th>
-                  <th className="w-[20%] border border-black">인원</th>
+                  <th className="w-[20%]  border border-blue-200">동아리명</th>
+                  <th className="w-[40%] border border-blue-200">주제</th>
+                  <th className="w-[20%] border border-blue-200">장소</th>
+                  <th className="w-[20%] border border-blue-200">인원</th>
                 </tr>
               </thead>
               <tbody>
                 {data1.map((_item) => {
                   return (
                     <tr className="text-xs font-md h-9">
-                      <td className="border border-black">{_item.name}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-blue-200">{_item.name}</td>
+                      <td className="border border-blue-200 px-1">
                         {_item.topic}
                       </td>
-                      <td className="border border-black ">{_item.place}</td>
-                      <td className="border border-black px-1">
+                      <td className="border border-blue-200 ">{_item.place}</td>
+                      <td className="border border-blue-200 px-1">
                         {_item.person}
                       </td>
                     </tr>
