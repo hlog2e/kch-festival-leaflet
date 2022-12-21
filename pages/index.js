@@ -413,7 +413,6 @@ function Section3() {
         </Fade>
         <Fade left>
           <div className="mt-2">
-            <p className="text-md font-pura">2학년</p>
             <table className="w-full mt-2 text-center border ">
               <thead>
                 <tr className=" h-10 border border-black text-sm font-bold">
