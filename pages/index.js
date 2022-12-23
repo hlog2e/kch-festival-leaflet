@@ -125,7 +125,7 @@ function Section3() {
     {
       name: "PIG",
       topic: "VR, 펌프, 철권, 펠티어 냉장고",
-      place: "물리실",
+      place: "물리실, 대기실 (2-1)",
       person: "∞",
     },
     {
@@ -283,7 +283,13 @@ function Section3() {
         </Fade>
         <Fade left>
           <div className="mt-2 ">
-            <p className="text-md font-pura ">1학년</p>
+            <div className="flex justify-between items-center mt-2">
+              <p className="text-md font-pura">1학년</p>
+              <p className="text-red-400 font-pretendard font-bold text-sm">
+                ※ 1학년 대기실 : 0-0, 0-0
+              </p>
+            </div>
+
             <table className="w-full mt-2 text-center border border-amber-200 ">
               <thead>
                 <tr className=" h-10 border border-amber-300 text-sm font-bold">
@@ -316,7 +322,12 @@ function Section3() {
         </Fade>
         <Fade left>
           <div className="mt-2">
-            <p className="text-md font-pura ">2학년</p>
+            <div className="flex justify-between items-center mt-2">
+              <p className="text-md font-pura">2학년</p>
+              <p className="text-red-400 font-pretendard font-bold text-sm">
+                ※ 2학년 대기실 : 0-0, 0-0
+              </p>
+            </div>
             <table className="w-full mt-2 text-center border border-amber-200 ">
               <thead>
                 <tr className=" h-10 border border-amber-200 text-sm font-bold">
@@ -355,7 +366,12 @@ function Section3() {
         </Fade>
         <Fade left>
           <div className="mt-2">
-            <p className="text-md font-pura">1학년</p>
+            <div className="flex justify-between items-center mt-2">
+              <p className="text-md font-pura">1학년</p>
+              <p className="text-red-400 font-pretendard font-bold text-sm">
+                ※ 1학년 대기실 : 0-0, 0-0
+              </p>
+            </div>
             <table className="w-full mt-2 text-center border  ">
               <thead>
                 <tr className=" h-10 border border-black text-sm font-bold">
@@ -386,7 +402,12 @@ function Section3() {
         </Fade>
         <Fade left>
           <div className="mt-2">
-            <p className="text-md font-pura">2학년</p>
+            <div className="flex justify-between items-center mt-2">
+              <p className="text-md font-pura">2학년</p>
+              <p className="text-red-400 font-pretendard font-bold text-sm">
+                ※ 2학년 대기실 : 0-0, 0-0
+              </p>
+            </div>
             <table className="w-full mt-2 text-center border ">
               <thead>
                 <tr className=" h-10 border border-black text-sm font-bold">
@@ -476,7 +497,7 @@ function Section4() {
       song: "함께 걷는 길 외 1곡",
     },
     {
-      type: "랩",
+      type: "노래",
       people: "???",
       song: "???",
     },
