@@ -286,7 +286,7 @@ function Section3() {
             <div className="flex justify-between items-center mt-2">
               <p className="text-md font-pura">1학년</p>
               <p className="text-red-400 font-pretendard font-bold text-sm">
-                ※ 1학년 대기실 : 0-0, 0-0
+                ※ 1학년 대기실 : 1-8, 1-9
               </p>
             </div>
 
@@ -325,7 +325,7 @@ function Section3() {
             <div className="flex justify-between items-center mt-2">
               <p className="text-md font-pura">2학년</p>
               <p className="text-red-400 font-pretendard font-bold text-sm">
-                ※ 2학년 대기실 : 0-0, 0-0
+                ※ 2학년 대기실 : 2-3, 2-4
               </p>
             </div>
             <table className="w-full mt-2 text-center border border-amber-200 ">
@@ -369,7 +369,7 @@ function Section3() {
             <div className="flex justify-between items-center mt-2">
               <p className="text-md font-pura">1학년</p>
               <p className="text-red-400 font-pretendard font-bold text-sm">
-                ※ 1학년 대기실 : 0-0, 0-0
+                ※ 1학년 대기실 : 1-8, 1-9
               </p>
             </div>
             <table className="w-full mt-2 text-center border  ">
@@ -405,7 +405,7 @@ function Section3() {
             <div className="flex justify-between items-center mt-2">
               <p className="text-md font-pura">2학년</p>
               <p className="text-red-400 font-pretendard font-bold text-sm">
-                ※ 2학년 대기실 : 0-0, 0-0
+                ※ 2학년 대기실 : 2-3, 2-4
               </p>
             </div>
             <table className="w-full mt-2 text-center border ">
