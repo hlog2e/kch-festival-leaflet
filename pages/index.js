@@ -15,7 +15,7 @@ export default function Home() {
           content="제 32회 금천고등학교 금나리축제 온라인 리플릿"
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:title" content="제 32회 금나리축제 온라인 리플릿" />
+        <meta property="og:title" content="제 32회 금나리축제" />
         <meta
           property="og:description"
           content="제 32회 금천고등학교 금나리축제 온라인 리플릿"
