@@ -93,9 +93,9 @@ function Section2() {
   return (
     <div className={"pb-28"}>
       <div className={"p-8"}>
-        <Fade left>
+        <Fade left cascade>
           <p className={"font-pura text-2xl font-semibold "}>인사말</p>
-          <p className="mb-96 mt-4 font-pretendard">
+          <p className="mb-52 mt-4 font-pretendard font-md ">
             청주교육대학교는 1941년 개교하여 80년 역사를 자랑하는 유서 깊은
             교원양성기관입니다. 인간사회와 자연에 대한 폭넓은 이해를 바탕으로
             교양과 인격을 완성하고, 기초학문과 교과교육에 대한 전문적 지식과
@@ -588,7 +588,7 @@ function Section4() {
     {
       type: "댄스",
       people: "학생회 무대",
-      song: "",
+      song: "풍선 외 1곡",
     },
   ];
   return (
