@@ -578,7 +578,7 @@ function Section4() {
     },
     {
       type: "댄스",
-      people: "신희원 외 7명",
+      people: "류동하 외 7명",
       song: "bloodline 외 3곡",
     },
     {
