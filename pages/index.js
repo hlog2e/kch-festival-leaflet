@@ -3,10 +3,29 @@ import Lottie from "react-lottie";
 import congratLottie from "../lotties/congrat.json";
 import scrollLottie from "../lotties/scroll.json";
 import Fade from "react-reveal/Fade";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>제 32회 금나리축제</title>
+        <meta
+          name="description"
+          content="제 32회 금천고등학교 금나리축제 온라인 리플릿"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="제 32회 금나리축제 온라인 리플릿" />
+        <meta
+          property="og:description"
+          content="제 32회 금천고등학교 금나리축제 온라인 리플릿"
+        />
+        <meta property="og:url" content="https://festival.kch-app.me" />
+        <meta
+          property="og:image"
+          content="https://festival.kch-app.me/ogimage.png"
+        />
+      </Head>
       <div className={styles.max_box}>
         <div className="w-44 h-44 bg-amber-200 rounded-[50%] fixed -top-20 -right-20 z-50" />
         <div className="w-44 h-44 bg-pink-200 rounded-[50%] fixed -bottom-28 -left-20 z-50" />
