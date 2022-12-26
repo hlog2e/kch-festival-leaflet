@@ -525,7 +525,7 @@ function Section4() {
     {
       type: "댄스",
       people: "박세민 외 3명",
-      song: "Kill this love 외 1곡",
+      song: "Kill this love",
     },
     {
       type: "중창",
@@ -539,7 +539,7 @@ function Section4() {
     },
     {
       type: "노래",
-      people: "주수빈 외 2명",
+      people: "주수빈 외 1명",
       song: "우연히, 봄",
     },
     {
@@ -564,12 +564,12 @@ function Section4() {
     {
       type: "노래",
       people: "홍다율",
-      song: "그대라는 시",
+      song: "한숨",
     },
     {
       type: "댄스",
-      people: "박장균 외 11명",
-      song: "RightNow 외 6곡",
+      people: "박장균 외 7명",
+      song: "RightNow",
     },
     {
       type: "노래",
@@ -578,8 +578,8 @@ function Section4() {
     },
     {
       type: "댄스",
-      people: "류동하 외 7명",
-      song: "bloodline 외 3곡",
+      people: "류동하 외 6명",
+      song: "bloodline 외 4곡",
     },
     {
       oneRow: true,
