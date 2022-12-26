@@ -178,7 +178,7 @@ function Section3() {
     },
     {
       name: "QS",
-      topic: "비밀번호 해독",
+      topic: "범인을 잡아랏 !",
       place: "생명과학실",
       person: "15",
     },
