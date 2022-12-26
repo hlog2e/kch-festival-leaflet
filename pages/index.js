@@ -529,7 +529,7 @@ function Section4() {
     },
     {
       type: "중창",
-      people: "김원호 외 8명",
+      people: "강원호 외 8명",
       song: "함께 걷는 길 외 1곡",
     },
     {
