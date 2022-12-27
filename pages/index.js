@@ -218,7 +218,7 @@ function Section3() {
       name: "국제연합",
       topic: "도전 40분 줄줄이 달려요!",
       place: "어학실",
-      person: "25",
+      person: "팀당 4명",
     },
     {
       name: "심리연구소",
