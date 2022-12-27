@@ -95,11 +95,18 @@ function Section2() {
       <div className={"p-8"}>
         <Fade left cascade>
           <p className={"font-pura text-2xl font-semibold "}>인사말</p>
-          <p className="mb-44 mt-4 font-pretendard font-semibold ">
-            안녕하십니까. 제 34대 학생회장 함윤서입니다.작년에는 갑작스러운
-            코로나19 확산으로 인해 온라인으로 축제를 즐겨야 했지만, 올해는
-            대면축제를 진행할 수 있게 되었습니다. 학생 여러분들이 안전하게,
-            즐겁게 금나리 축제를 즐길 수 있기를 바랍니다!
+          <p className="mt-4 font-pretendard font-semibold ">
+            안녕하세요, 금천고등학교 축제준비위원회입니다. 작년에는 갑작스러운
+            코로나19 확산으로 인해 온라인으로 축제를 즐겨야 해서 아쉬움이
+            컸습니다. 드디어, 올해는 3년 만에 대면으로 축제를 진행할 수 있게
+            되었습니다. 설레고 기쁜 마음입니다. 우리 금천고등학교 학생들,
+            선생님들, 그리고 모든 분들이 안전하고 즐겁게 금나리 축제를 즐길 수
+            있기를 바랍니다!
+          </p>
+          <p className="mt-4 mb-44  font-pretendard font-semibold ">
+            무대 위의 주인공들이 반짝이는 순간순간마다 우레와 같은 함성과 박수를
+            보내주시길 부탁드리며, 2023년에도 여러분 모두의 반짝이는 순간을
+            기원합니다.
           </p>
         </Fade>
 
