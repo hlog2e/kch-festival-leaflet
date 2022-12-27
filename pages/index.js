@@ -93,22 +93,15 @@ function Section2() {
   return (
     <div className={"pb-28"}>
       <div className={"p-8"}>
-        {/*<Fade left cascade>*/}
-        {/*  <p className={"font-pura text-2xl font-semibold "}>인사말</p>*/}
-        {/*  <p className="mb-52 mt-4 font-pretendard font-md ">*/}
-        {/*    청주교육대학교는 1941년 개교하여 80년 역사를 자랑하는 유서 깊은*/}
-        {/*    교원양성기관입니다. 인간사회와 자연에 대한 폭넓은 이해를 바탕으로*/}
-        {/*    교양과 인격을 완성하고, 기초학문과 교과교육에 대한 전문적 지식과*/}
-        {/*    자질을 갖추고, 국가 발전과 인류공영에 기여할 수 있는 우수한*/}
-        {/*    초등교원과 초등교육 전문가 양성을 목적으로 우리 교육의 각 분야에서*/}
-        {/*    연구하고 실천하는 뛰어난 교육자들을 양성해 왔습니다. 우리 대학은*/}
-        {/*    유서 깊은 전통을 이어가면서 새로운 시대에는 혁신을 지속하기 위하여*/}
-        {/*    끊임없이 노력하고 있습니다. 그 일환으로 2015년 3월, 구성원의 지혜를*/}
-        {/*    모아 대학, 협력과 연대의 집단 지성을 경험할 수 있는 대학, 사람을*/}
-        {/*    성장시키고 연구와 실천을 다른 교육 기관이 모방할 수 있는 매력적인*/}
-        {/*    대학으로 성장시켜 가겠습니다.*/}
-        {/*  </p>*/}
-        {/*</Fade>*/}
+        <Fade left cascade>
+          <p className={"font-pura text-2xl font-semibold "}>인사말</p>
+          <p className="mb-44 mt-4 font-pretendard font-semibold ">
+            안녕하십니까. 제 34대 학생회장 함윤서입니다.작년에는 갑작스러운
+            코로나19 확산으로 인해 온라인으로 축제를 즐겨야 했지만, 올해는
+            대면축제를 진행할 수 있게 되었습니다. 학생 여러분들이 안전하게,
+            즐겁게 금나리 축제를 즐길 수 있기를 바랍니다!
+          </p>
+        </Fade>
 
         <Fade left>
           <p className={"font-pura text-2xl font-semibold"}>일정</p>
@@ -509,7 +502,7 @@ function Section4() {
   const data = [
     {
       type: "밴드",
-      people: "쌤밴드",
+      people: "BTS",
       song: "비와 당신 외 1곡",
     },
     {
@@ -529,7 +522,7 @@ function Section4() {
     },
     {
       type: "중창",
-      people: "강원호 외 8명",
+      people: "강원호 외 13명",
       song: "함께 걷는 길 외 1곡",
     },
     {
@@ -569,7 +562,7 @@ function Section4() {
     {
       type: "댄스",
       people: "박장균 외 7명",
-      song: "RightNow",
+      song: "Remix",
     },
     {
       type: "노래",
