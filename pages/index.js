@@ -251,7 +251,7 @@ function Section3() {
       name: "온에어",
       topic: "도전! K-예능 게임 릴레이",
       place: "1-6",
-      person: "25",
+      person: "팀당 4~6명",
     },
     {
       name: "모의유엔",
