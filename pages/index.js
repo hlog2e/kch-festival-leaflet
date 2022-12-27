@@ -162,7 +162,7 @@ function Section3() {
   const data1 = [
     {
       name: "PIG",
-      topic: "VR, 펌프, 철권, 펠티어 냉장고",
+      topic: "VR, 펌프, 철권, 자율주행 시연",
       place: "물리실, 대기실 (2-1)",
       person: "∞",
     },
